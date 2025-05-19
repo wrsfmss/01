@@ -53,7 +53,7 @@ interpreter.empty_code_output_template = "The code above was executed on my mach
 interpreter.code_output_sender = "user"
 
 # LLM settings
-interpreter.llm.model = "ollama/codestral"
+interpreter.llm.model = "ollama/llama2"
 interpreter.llm.supports_functions = False
 interpreter.llm.execution_instructions = False
 interpreter.llm.load()
@@ -68,5 +68,5 @@ interpreter.max_output = 600
 
 # Final message
 interpreter.display_message(
-    "> Local model set to `Codestral`, Local TTS set to `Coqui`.\n"
+    "> Local model set to `Llama2`, Local TTS set to `Coqui`.\n"
 )
